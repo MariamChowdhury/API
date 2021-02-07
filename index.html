@@ -10,7 +10,17 @@
   <h1>JSON</h1>
   <h2>Javascript Object Notation</h2>
 <script>
-  
+  const first={
+    name:'Mari',
+      id:20
+  };
+ const firstJSON=JSON.stringify(first);
+ console.log(firstJSON);
+ //{"name":"Mari","id":20}
+ //stringify server theke data string hisabe niye ashe!
+ const firstFromJSON=JSON.parse(firstJSON);
+ console.log(firstFromJSON);
+ //gives normal o/p
 </script>
 </body>
 </html>
